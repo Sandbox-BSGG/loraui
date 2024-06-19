@@ -10,7 +10,7 @@ export default function SensorChart({timestamps,sensor}) {
                     data: sensor,
                 },
             ]}
-            height={300}
+            height={1000}
             margin={{ left: 30, right: 30, top: 30, bottom: 30 }}
             grid={{ vertical: true, horizontal: true }}
         />
